@@ -65,8 +65,18 @@ body {
 
 .hero-banner img {
     grid-column: 3;
+    grid-row: 1;
     width: 400px;
     height: 500px;
+}
+
+.hero-banner h3 {
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 3em;
+    margin-left: 20px;
+    margin-top: 200px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .homeintro {
@@ -198,4 +208,61 @@ main {
 
 .fishpicture img {
     width: 300px;
+}
+
+.photointro h3 {
+    font-size: 2em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 40%;
+}
+
+.photointro p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.picbook {
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    justify-items: center;
+}
+
+.pictureone {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.pictureone img {
+    width: 350px;
+}
+
+.picturetwo {
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+.picturetwo img {
+    width: 350px;
+}
+
+.picturethree {
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+.picturethree img {
+    width: 350px;
+}
+
+.picturefour {
+    grid-column: 3/4;
+    grid-row: 2;
+}
+
+.picturefour img {
+    width: 350px;
 }
